@@ -11,6 +11,9 @@ node 'vm01.linuxmaster.com' {
 		content => "This is a test server.\n",
 	}
 
+	include sshd
+}
+
 node 'vm01.linuxmaster.com' {
 #	include vim_upgrade
 #	include sshd
