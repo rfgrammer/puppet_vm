@@ -16,6 +16,6 @@ node 'vm01.linuxmaster.com' {
 
 node 'vm01.linuxmaster.com' {
 #	include vim_upgrade
-#	include sshd
+	include sshd
 }
 
