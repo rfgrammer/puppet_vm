@@ -12,10 +12,11 @@ node 'vm01.linuxmaster.com' {
 	}
 
 	include sshd
+	include danger_module
 }
 
 node 'vm01.linuxmaster.com' {
-#	include vim_upgrade
+	include vim_upgrade
 	include sshd
 }
 
